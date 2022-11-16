@@ -5,7 +5,7 @@ header{
     background-image: url(images/bgk-header.png);
 }
 nav {
-    color:aquamarine;
+    color:#2CA1B2;
     color: white;
     
     display: flex;
@@ -48,7 +48,7 @@ nav img{
     
      width: 30px;
      margin: 10px;
-     border:1px solid aquamarine;
+     border:1px solid #2CA1B2;
      
      }
 #hero-section p{
@@ -57,11 +57,11 @@ nav img{
     margin: 20px;
 }
 #hero-section button{
-color: aquamarine;
+color: #2CA1B2;
 background: transparent;
 height: 45px;
 width: 125px;
-border: aquamarine solid 1px;
+border: #2CA1B2 solid 1px;
 margin-bottom: 200px;
 margin-top: 20px;
 }
@@ -106,8 +106,8 @@ form input{
     width: 80px;
     text-align: center;
     padding: 10;
-    color: aquamarine;
-    border:1px solid aquamarine ;
+    color: #2CA1B2;
+    border:1px solid #2CA1B2 ;
     background: transparent;
 }
 .lo{
