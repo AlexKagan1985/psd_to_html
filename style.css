@@ -15,8 +15,29 @@ nav {
 }
 
 #watch-section {
-    color: darkred;
+    background-image: url('/images/bgk-middle.png');
+    width: 1600px;
+    height: 550px;
+    margin: 0 auto;
 }
+
+#watch-section img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 12.5%;
+   
+}
+
+#watch-section h4 {
+    font-family: Arial, Helvetica, sans-serif
+    display: block;
+    color: white;
+    margin: 30px;
+    text-align:center
+    
+}
+
+
 
 #expertise-section {
     color: fuchsia;
