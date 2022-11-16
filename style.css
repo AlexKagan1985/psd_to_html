@@ -21,12 +21,24 @@ nav ul{
     color: whitesmoke;
     
 }
+nav .sp1{
+   display: flex;
+   align-items: center;
+   
+
+}
+span
+{
+    color: #2CA1B2;
+    font-size: 36px;
+    padding: 0px;
+}
 nav li{
 padding: 10px;
 }
 nav img{
 
-    padding: 20px;
+    padding: 8px;
 }
 .nav-home{
     color:#2CA1B2;
@@ -47,7 +59,7 @@ nav img{
 #hero-section hr{
     
      width: 30px;
-     margin: 10px;
+     margin: auto;
      border:1px solid #2CA1B2;
      
      }
