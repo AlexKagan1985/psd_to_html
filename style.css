@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: sans-serif;
 }
 
 nav {
@@ -28,8 +29,4 @@ nav {
 
 #contact_clien-section {
     color: lightsalmon;
-}
-
-footer {
-    color: blueviolet;
 }
