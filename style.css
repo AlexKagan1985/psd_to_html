@@ -12,6 +12,9 @@ nav {
     justify-content: space-around;
     
 }
+.h1-give{
+    padding-bottom: 20px;
+}
 nav ul{
     display: flex;
    margin: 10px;
@@ -44,29 +47,23 @@ nav img{
     color:#2CA1B2;
 }
 #hero-section {
-    color:white;
-    margin: 100px;
-    text-align: center;
-  
-    padding: 18px;
+color:white;
+margin: 100px;
+text-align: center;
+padding: 18px;
 }
 #hero-section h1{
     font-size: 36px;
     padding: 8px;
-    
-    
 }
 #hero-section hr{
-    
-     width: 30px;
-     margin: auto;
-     border:1px solid #2CA1B2;
-     
-     }
+width: 30px;
+margin: auto;
+border:1px solid #2CA1B2;
+}
 #hero-section p{
-
-    padding: 8px;
-    margin: 20px;
+padding: 8px;
+margin: 20px;
 }
 #hero-section button{
 color: #2CA1B2;
@@ -77,11 +74,9 @@ border: #2CA1B2 solid 1px;
 margin-bottom: 200px;
 margin-top: 20px;
 }
-
 #our_story-section {
     color: green;
 }
-
 #watch-section {
     color: darkred;
 }
@@ -101,20 +96,30 @@ margin-top: 20px;
 footer {
     color: blueviolet;
 }
+form{
+    width: 380px;
+}
 form input{
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin-bottom: 20px;
     width: 380px;
     height: 30px;
-
 }
 #messa{
-    height: 240px;
+    height:130px;
     width: 380px;
 }
+ .m-al input{
+    padding: 0;
+ }
+.form-stlying{
+    
+    display: inline-flex
+    flex-direction: column;
+   
+}
 .sub{
-
     height: 30px;
     width: 80px;
     text-align: center;
@@ -123,25 +128,63 @@ form input{
     border:1px solid #2CA1B2 ;
     background: transparent;
 }
-.lo{
-
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-    width: 130px;
-    padding: 30px;
+.happy-client {
+   display: flex;
+   flex-direction: column;
+   
     margin: 5px;
-    gap:30px
+    
+}
+.happy-client img{
+    width: 80px;
+    height: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 50px;
 }
 .brand{
     display: flex;
     flex-direction:row;
-   
+   }
+.brand1{
+    display: flex;
+    flex-direction: column;
    
 }
+
 .client-col{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin: 150px;
+  }
+.main-client-section{
+
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+   
 }
+
+
+
+
+
+
+.alex{
+    background-image: url(images/bgk-header.png);
+    border: 1px solid pink;
+    display: flex;
+   
+   }
+.al{    
+    border: 1px solid lawngreen;
+    background-color: aliceblue;
+    height: 150px;
+    width: 50px;
+
+    }
+    .alex1{
+       
+        background-color: transparent;
+        }
+        
