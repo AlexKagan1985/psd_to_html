@@ -129,9 +129,150 @@ nav {
 /*end of expertise section*/
 
 #team-section {
-    color: yellowgreen;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+    color: whitesmoke;
+    background-image: url("https://github.com/AlexKagan1985/psd_to_html/blob/main/images/bgk-header.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
 }
+
+#team-section h2, h3{
+    display: block;
+    
+}
+
+#lorem{
+    font-family: serif !important;
+    font-weight: 100;
+}
+
+#team-section div{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+
+}
+#team-section .container{
+display: flexbox;
+flex-direction: column;
+/* border: 1px solid grey; */
+
+
+
+}
+#hiring{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* .members{
+    display: flex;
+    align-content: flex-end;
+    width: 100px;
+    height: 70px;
+    background-color: aliceblue;
+    margin: 30px;
+    border: grey;
+} */
+
+#joinButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    border: 3px solid rgb(59, 255, 248);
+    border-color: rgb(59, 255, 248);
+    color: rgb(59, 255, 248);
+    border-radius: 3%;
+    border-width: 0.1em;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    font: small-caps bold 12px/1 sans-serif;
+}
+#label_join{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 100;
+
+    
+}
+
 
 #contact_clien-section {
     color: lightsalmon;
 }
+
+
+footer {
+    color: blueviolet;
+}
+
+#hor_line {
+
+    color: red  !important;
+
+    height: 0;
+    width: 3em;
+    margin: 0 auto ;
+    /* border: 0.5px thin black; */
+    
+    
+    
+
+}
+ 
+.members {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    max-width: 220px;
+    
+    /* margin: auto; */
+}
+
+#mem_img {
+    width: 100%;
+    height: 80%;
+
+    /* max-height: 150px; */
+}
+
+#me_fig_cap {
+    /* background-color: #222; */
+    display: flex-inline;
+    flex-flow: column wrap;
+    align-content: space-between;
+        color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+
+
+}
+
+#mem-name{
+    font: small-caps bold 12px/1 sans-serif;
+}
+#mem-role{
+    font: 0.7em "Fira Sans", sans-serif;
+ color: grey;
+
+}
+#upper_part{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#middle_part{
+
+    height: 40%;
+}
+
