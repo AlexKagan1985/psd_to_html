@@ -2,20 +2,84 @@
     margin: 0;
     font-family: sans-serif;
 }
-
+header{
+    background-image: url(images/bgk-header.png);
+}
 nav {
-    color: red;
+    color:#2CA1B2;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
 }
+.client-col-header{
+    padding-bottom: 20px;
+}
+nav ul{
+    display: flex;
+   margin: 10px;
+   padding: 10px;
+    flex-direction: row;
+   list-style-type: none;
+    color: whitesmoke;
+    
+}
+nav .nav-header{
+   display: flex;
+   align-items: center;
+   
 
+}
+span
+{
+    color: #2CA1B2;
+    font-size: 36px;
+    padding: 0px;
+}
+nav li{
+padding: 10px;
+}
+nav img{
+
+    padding: 8px;
+}
+.nav-home{
+    color:#2CA1B2;
+}
 #hero-section {
-    color: blue;
+color:white;
+margin: 100px;
+text-align: center;
+padding: 18px;
 }
-
+#hero-section h1{
+    font-size: 36px;
+    padding: 8px;
+}
+#hero-section hr{
+width: 30px;
+margin: auto;
+border:1px solid #2CA1B2;
+}
+#hero-section p{
+padding: 8px;
+margin: 20px;
+}
+#hero-section button{
+color: #2CA1B2;
+background: transparent;
+height: 45px;
+width: 125px;
+border: #2CA1B2 solid 1px;
+margin-bottom: 200px;
+margin-top: 20px;
+}
 #our_story-section {
     color: green;
 }
 
 /*start of watch section*/
+
 
 #watch-section {
     background-image: url('/images/bgk-middle.png');
@@ -209,10 +273,72 @@ flex-direction: column;
     color: lightsalmon;
 }
 
-
-footer {
-    color: blueviolet;
+form{
+    width: 380px;
 }
+form input{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 380px;
+    height: 30px;
+}
+#message{
+    height:130px;
+    width: 380px;
+}
+ .m-al input{
+    padding: 0;
+ }
+.form-stlying{
+    
+    display: inline-flex
+    flex-direction: column;
+   
+}
+.sub{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    padding: 10;
+    color: #2CA1B2;
+    border:1px solid #2CA1B2 ;
+    background: transparent;
+}
+.happy-client-logos {
+   display: flex;
+   flex-direction: column;
+   margin: 5px;
+    
+}
+.happy-client-logos img{
+    width: 80px;
+    height: 5%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+.happy-client{
+    display: flex;
+    flex-direction:row;
+   }
+.client-contact{
+    display: flex;
+    flex-direction: column;
+   }
+
+.client-col{
+    display: flex;
+    flex-direction: column;
+    
+  }
+.main-client-section{
+
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+   }
+=======
 
 #hor_line {
 
@@ -275,4 +401,5 @@ footer {
 
     height: 40%;
 }
+
 
