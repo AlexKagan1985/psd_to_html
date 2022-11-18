@@ -7,12 +7,11 @@ header{
 nav {
     color:#2CA1B2;
     color: white;
-    
     display: flex;
     justify-content: space-around;
     
 }
-.h1-give{
+.client-col-header{
     padding-bottom: 20px;
 }
 nav ul{
@@ -24,7 +23,7 @@ nav ul{
     color: whitesmoke;
     
 }
-nav .sp1{
+nav .nav-header{
    display: flex;
    align-items: center;
    
@@ -106,7 +105,7 @@ form input{
     width: 380px;
     height: 30px;
 }
-#messa{
+#message{
     height:130px;
     width: 380px;
 }
@@ -128,63 +127,36 @@ form input{
     border:1px solid #2CA1B2 ;
     background: transparent;
 }
-.happy-client {
+.happy-client-logos {
    display: flex;
    flex-direction: column;
-   
-    margin: 5px;
+   margin: 5px;
     
 }
-.happy-client img{
+.happy-client-logos img{
     width: 80px;
     height: 5%;
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 50px;
 }
-.brand{
+.happy-client{
     display: flex;
     flex-direction:row;
    }
-.brand1{
+.client-contact{
     display: flex;
     flex-direction: column;
-   
-}
+   }
 
 .client-col{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
   }
 .main-client-section{
 
     display: flex;
     justify-content: center;
     gap: 8%;
-   
-}
-
-
-
-
-
-
-.alex{
-    background-image: url(images/bgk-header.png);
-    border: 1px solid pink;
-    display: flex;
-   
    }
-.al{    
-    border: 1px solid lawngreen;
-    background-color: aliceblue;
-    height: 150px;
-    width: 50px;
-
-    }
-    .alex1{
-       
-        background-color: transparent;
-        }
-        
