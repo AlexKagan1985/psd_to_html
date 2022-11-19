@@ -402,4 +402,158 @@ form input{
     height: 40%;
 }
 
+/* ***Agata's footer section start*** */
+/* FOOTER general rules */
 
+footer {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    background-image: url(images/bgk-footer.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: rgb(233, 230, 230);
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer section {
+    display: flex;
+    width: 65%;
+    gap: 1rem;
+}
+
+footer div {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+footer h6 {
+    color: rgb(233, 230, 230);
+    font: size 14px;
+    text-transform: uppercase;   
+    font-size: 15px;
+}
+
+.p-container-1 {
+    padding-top: 2rem;
+}
+
+#footer-info, #footer-address, #footer-form {
+    width: 45%;
+}
+
+/* upper part of the footer */
+
+#footer-container-1 {
+    justify-content: space-between;
+    margin-top: 3rem;
+} 
+
+#footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+#footer-logo figcaption {
+    text-transform: none;
+    font-size: 25px;
+    color: rgb(116, 201, 235);
+    font-weight: lighter;
+    padding-left: 0.75rem;
+    letter-spacing: 1px;
+}
+
+#footer-address {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-address figure {
+    display: flex;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+#footer-address figcaption {
+    padding-left: 1em;
+}
+
+#footer-form {
+    display:flex;
+    flex-direction: column;
+    }
+
+#stay-in-touch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 3rem;
+    gap: 0.5rem;
+}
+
+#email-type {
+    height: 39px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    color: rgba(255, 255, 255, 0.356);
+    padding-left: 1rem;;
+}
+
+#submit-icon {
+    background-image: url("images/png/paper122.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.356);
+    border: none;
+    width: 75px;
+    height: 43px;
+
+}
+
+#social-media-links {
+    margin-left: 0;
+    margin-top: 1.5rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+#social-media-links a {
+    text-decoration: none;
+    color: rgb(233, 230, 230);
+}
+
+
+/* bottom part of the footer */
+
+#footer-container-2 {
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+}
+
+#footer-nav ul {
+    display: flex;
+    align-content: center;
+    list-style: none;
+    gap: 3rem;
+    padding-left: 0;
+}
+
+#footer-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(233, 230, 230);
+    font-weight: bold;
+}
+
+#footer-nav li a:hover {    
+    color: rgb(116, 201, 235);
+}
+
+/* ***Agata's footer section start*** */
