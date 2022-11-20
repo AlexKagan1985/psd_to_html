@@ -11,9 +11,47 @@ nav {
     color: blue;
 }
 
+ /* start of our_story-section */
+
 #our_story-section {
-    color: green;
+    display: flex;
+    justify-content: center;
+
 }
+#our_story-section-text-container,
+#our_story-section-img-container{
+width: 30em;
+height: 25em;
+
+}
+#our_story-section-img-container img{
+    height: 60%;
+}
+#our_story-section-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our_story-section-text-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#our-story-h3{
+    font-family: serif;
+    
+}
+
+#our_story-section-text-container p{
+
+    font-family: sans-serif;
+    color:grey;
+}
+
+ /* end of our_story-section */
 
 /*start of watch section*/
 
@@ -161,7 +199,7 @@ nav {
 #team-section .container{
 display: flexbox;
 flex-direction: column;
-/* border: 1px solid grey; */
+
 
 
 
@@ -172,15 +210,7 @@ flex-direction: column;
     
 }
 
-/* .members{
-    display: flex;
-    align-content: flex-end;
-    width: 100px;
-    height: 70px;
-    background-color: aliceblue;
-    margin: 30px;
-    border: grey;
-} */
+
 
 #joinButton{
     display: flex;
@@ -221,7 +251,7 @@ footer {
     height: 0;
     width: 3em;
     margin: 0 auto ;
-    /* border: 0.5px thin black; */
+   
     
     
     
@@ -235,18 +265,18 @@ footer {
     margin: 10px;
     max-width: 220px;
     
-    /* margin: auto; */
+    
 }
 
 #mem_img {
     width: 100%;
     height: 80%;
 
-    /* max-height: 150px; */
+   
 }
 
 #me_fig_cap {
-    /* background-color: #222; */
+   
     display: flex-inline;
     flex-flow: column wrap;
     align-content: space-between;
@@ -276,3 +306,12 @@ footer {
     height: 40%;
 }
 
+#meet_our_team{
+    font-family: serif;
+}
+
+#lorem_team{
+    font-family: serif;
+    color: #c0c0c0; 
+    font-weight: 200;
+}
