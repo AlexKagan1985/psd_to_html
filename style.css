@@ -4,6 +4,8 @@
 }
 header{
     background-image: url(images/bgk-header.png);
+    background-size: cover;
+    
 }
 nav {
     color:#2CA1B2;
@@ -123,7 +125,7 @@ height: 25em;
 
 
 #watch-section {
-    background-image: url('/images/bgk-middle.png');
+    background-image: url('images/bgk-middle.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -366,7 +368,7 @@ form input{
     
   }
 .main-client-section{
-
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     gap: 8%;
